@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка QA Engineer</title>
+    <style>
+        body {
+            background-color: #ffe6f0; /* Светло-розовый цвет */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .profile {
+            text-align: center;
+            padding: 20px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .profile h1 {
+            margin: 10px 0 5px 0;
+            font-size: 2em;
+            color: #333;
+        }
+        .profile p {
+            margin: 0 0 15px 0;
+            font-size: 1.2em;
+            color: #666;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #1a1a1a;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #ff66b2;
+        }
+        .skills {
+            margin-top: 30px;
+            padding: 20px;
+            border: 2px solid #ffb6c1;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .skills p {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            text-align: center;
+            color: #333;
+        }
+        .test-fields {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-between;
+        }
+        .test-fields input {
+            width: 48%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        /* Адаптивность */
+        @media (max-width: 600px) {
+            .test-fields input {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://sun9-49.userapi.com/impg/WXm7UbCTvs362DqfYvH-1CMKJIcdZeR0o25Fdw/ffkbyN0jlOY.jpg?size=1920x1993&quality=95&sign=d494776cc0b90f2ddbc8aca26898e612&type=album" alt="Фото">
+            <h1>Виктория Павлюченко</h1>
+            <p>QA Engineer</p>
+            <div class="social-links">
+                <a href="https://t.me/vik_dori" target="_blank">Telegram</a>
+                <a href="https://vk.com/vasilevalone" target="_blank">VK</a>
+            </div>
+        </div>
+        <div class="skills">
+            <p>Навыки и стек</p>
+            <div class="test-fields">
+                <input type="text" placeholder="DevTools в браузере - тестирование front-части">
+                <input type="text" placeholder="Postman - тестирование API">
+                <input type="text" placeholder="Kibana - просмотр логов приложений">
+                <input type="text" placeholder="Написание тест-кейсов и баг-репортов">
+                <input type="text" placeholder="Swagger - тестирование API и документации к API">
+                <input type="text" placeholder="MySQL - просмотр данных в БД, написание SQL-запросов">
+                <input type="text" placeholder="Figma - тестирование user-interface front-end">
+                <input type="text" placeholder="HTML, CSS - тестирование front-end">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
